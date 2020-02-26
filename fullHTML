@@ -1,0 +1,2452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47560846-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-47560846-5');
+</script>
+        <title>{Title}{block:PostSummary} &mdash; {PostSummary}{/block:PostSummary}</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content='IE=edge' />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+    
+        <link rel="shortcut icon" href="{Favicon}">
+        <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}">
+        <link rel="apple-touch-icon" sizes="57x57" href="{PortraitURL-64}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{PortraitURL-64}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{PortraitURL-64}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{PortraitURL-96}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{PortraitURL-128}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{PortraitURL-128}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{PortraitURL-128}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{PortraitURL-128}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{PortraitURL-128}">
+        <link rel="icon" type="image/png" href="{PortraitURL-30}" sizes="32x32">
+        <link rel="icon" type="image/png" href="{PortraitURL-128}" sizes="192x192">
+        <link rel="icon" type="image/png" href="{PortraitURL-96}" sizes="96x96">
+        <link rel="icon" type="image/png" href="{PortraitURL-16}" sizes="16x16">
+        <meta name="msapplication-TileColor" content="{BackgroundColor}">
+        <meta name="msapplication-TileImage" content="{PortraitURL-128}">
+        <meta name="theme-color" content="{BackgroundColor}">
+        <link rel="alternate" type="application/rss+xml" title="RSS {Title}" href="{RSS}" />
+        {block:Description}
+        <meta name="description" content="{MetaDescription}" />
+        {/block:Description}
+        <link rel="stylesheet" href="https://static.tumblr.com/jxjb7si/y82ozodsp/styles.min.css">
+        <link rel="canonical" href="{block:IndexPage}{BlogURL}{/block:IndexPage}{block:PermalinkPage}{Permalink}{/block:PermalinkPage}">
+
+        <!-- General -->
+        <meta name="image:Header Logo" content=""/>
+        <meta name="image:Footer Logo" content=""/>
+        <meta name="image:Footer Background" content=""/>
+        
+        <meta name="text:Google Analitics Tracking Id" content=""/>
+        <meta name="text:Disqus Shortname" content=""/>
+   
+
+        <!-- Colors -->
+        <meta name="color:Accent Color" content="#d95e40"/>
+        <meta name="color:Light Accent Color" content="#e17e66"/>
+        <meta name="color:Dark Accent Color" content="#ae4b33"/>
+        <meta name="color:Border Color" content="#e0e0e0"/>
+        <meta name="color:Text Color 1" content="#979797"/>
+        <meta name="color:Text Color 2" content="#00000"/>
+        <meta name="color:Text Color 3" content="#8D8D8D"/>
+
+        <!-- Posts -->
+        <meta name="select:Post Columns" content="" title="3">
+        <meta name="select:Post Columns" content="post-grid--two-columns" title="2">
+
+        <meta name="select:Pagination" content="load-more" title="Load More">
+        <meta name="select:Pagination" content="normal" title="Normal">
+        <meta name="select:Pagination" content="infinite-scroll" title="Infinite Scroll">
+
+        <!-- Social Links -->
+        <meta name="text:Facebook URL" content=""/>
+        <meta name="text:Twitter URL" content=""/>
+        <meta name="text:Google Plus URL" content=""/>
+        <meta name="text:Instagram URL" content=""/>
+        <meta name="text:Pinterest URL" content=""/>
+
+        <!-- Categories -->
+        <meta name="text:Promo Box Name 1" content=""/>
+        <meta name="text:Promo Box URL 1" content=""/>
+        <meta name="image:Promo Box Background 1" content=""/>
+        
+        <meta name="text:Promo Box Name 2" content=""/>
+        <meta name="text:Promo Box URL 2" content=""/>
+        <meta name="image:Promo Box Background 2" content=""/>
+
+        <meta name="text:Promo Box Name 3" content=""/>
+        <meta name="text:Promo Box URL 3" content=""/>
+        <meta name="image:Promo Box Background 3" content=""/>
+
+        <meta name="text:Promo Box Name 4" content=""/>
+        <meta name="text:Promo Box URL 4" content=""/>
+        <meta name="image:Promo Box Background 4" content=""/>
+
+        <meta name="text:Promo Box Name 5" content=""/>
+        <meta name="text:Promo Box URL 5" content=""/>
+        <meta name="image:Promo Box Background 5" content=""/>
+
+        <meta name="text:Promo Box Name 6" content=""/>
+        <meta name="text:Promo Box URL 6" content=""/>
+        <meta name="image:Promo Box Background 6" content=""/>
+
+        <meta name="text:Promo Box Name 7" content=""/>
+        <meta name="text:Promo Box URL 7" content=""/>
+        <meta name="image:Promo Box Background 7" content=""/>
+
+        <meta name="text:Promo Box Name 8" content=""/>
+        <meta name="text:Promo Box URL 8" content=""/>
+        <meta name="image:Promo Box Background 8" content=""/>
+
+        <meta name="text:Promo Box Name 9" content=""/>
+        <meta name="text:Promo Box URL 9" content=""/>
+        <meta name="image:Promo Box Background 9" content=""/>
+
+        <meta name="text:Promo Box Name 10" content=""/>
+        <meta name="text:Promo Box URL 10" content=""/>
+        <meta name="image:Promo Box Background 10" content=""/>
+
+
+        <!-- Booleans Options -->
+        <meta name="if:Show Custom logo" content="0"/>
+        <meta name="if:Show Footer Background" content="0"/>
+        <meta name="if:Enable Progressbar" content="0"/>
+        <meta name="if:Show Tags" content="0"/>
+        <meta name="if:Show Search Icon" content="0"/>
+
+        <meta name="select:Text Font" content="Roboto" title="Roboto">
+        <meta name="select:Text Font" content="Lora" title="Lora">
+        <meta name="select:Text Font" content="Lato" title="Lato">
+        <meta name="select:Text Font" content="Slabo" title="Slabo">
+        <meta name="select:Text Font" content="Oswald" title="Oswald">
+        <meta name="select:Text Font" content="Raleway" title="Raleway">
+        <meta name="select:Text Font" content="Montserrat" title="Montserrat">
+        <meta name="select:Text Font" content="Inconsolata" title="Inconsolata">
+
+        <link href='https://fonts.googleapis.com/css?family={select:Text Font}:300,400,500,600' rel='stylesheet' type='text/css'>
+        
+        <style type="text/css">
+          body{
+            font-family: {select:Text Font};
+            }
+            a svg,
+            .tumblr-like .btn .liked,
+            .tumblr-like .like_button:hover+.btn svg,
+            .tumblr-reblog .reblog_button:hover+.btn svg,
+            .btn.is-outline.is-primary svg,
+            .btn.is-link.is-primary svg
+            {
+                fill: {color:Accent Color};
+            }
+            .tumblr-like .like_button.liked + .btn .liked{
+                stroke: {color:Accent Color};
+            }
+            a,
+            .btn.is-outline.is-primary,
+            .btn.is-link.is-primary,
+            ul.has-icons li:before,
+            .nav__item.is-active,
+            .main-nav__item:hover a:not(.btn),
+            .main-nav__item:active a:not(.btn),
+            .main-nav__item:focus a:not(.btn),
+            .main-nav__item.is-active a:not(.btn)
+            {
+                color: {color:Accent Color};
+            }
+            
+            .btn.is-primary,
+            .btn.is-outline.is-primary:hover,
+            .btn.is-outline.is-primary:active,
+            .btn.is-outline.is-primary:focus,
+            .badge.is-primary,
+            .pagination__item:hover,
+            .pagination__item:focus,
+            .pagination__item:active,
+            .pagination__item.is-active,
+            .pagination.is-active,
+            .progress__bar
+            {
+                background: {color:Accent Color};
+            }
+            .pagination__item:hover, .pagination__item:focus, .pagination__item:active, .pagination__item.is-active{
+                background: {color:Accent Color};
+                border: 1px solid {color:Accent Color};
+            }
+            .btn.is-primary:hover,
+            .pagination.is-active:hover
+            {
+                background: {color:Light Accent Color};
+            }
+            
+            a:hover svg,
+            .btn.is-link.is-primary:hover svg
+            {
+                fill: {color:Light Accent Color};
+            }
+            
+            a:hover,
+            .btn.is-link.is-primary:hover
+            {
+                color: {color:Light Accent Color};
+            }
+            
+            .btn.is-primary:active,
+            .btn.is-primary:focus,
+            .pagination.is-active:active,
+            .pagination.is-active:focus
+            {
+                background: {color:Dark Accent Color};
+            }
+            
+            a:active svg,
+            a:focus svg,
+            .btn.is-link.is-primary:active svg,
+            .btn.is-link.is-primary:focus svg
+            {
+                fill: {color:Dark Accent Color};
+            }
+            
+            a:active,
+            a:focus,
+            .btn.is-link.is-primary:active,
+            .btn.is-link.is-primary:focus
+            {
+                color: {color:Dark Accent Color};
+            }
+            
+            hr,
+            .no-data,
+            .pagination__item,
+            .preloader-container,
+            .post.is-text .post__wrapper,
+            .post.is-audio .post__wrapper,
+            .post.is-video .post__wrapper,
+            .post.is-list .post__wrapper,
+            .post.is-chat .post__wrapper,
+            .post.is-link .post__wrapper,
+            .post.is-quote .post__wrapper,
+            .post.is-answer .post__wrapper
+            {
+                border: 1px solid {color:Border Color};
+            }
+            
+            .main-nav,
+            .post.is-text .post__footer,
+            .post.is-audio .post__footer,
+            .post.is-video .post__footer,
+            .post.is-list .post__footer,
+            .post.is-chat .post__footer,
+            .post.is-link .post__footer,
+            .post.is-quote .post__footer,
+            .post.is-answer .post__footer
+            {
+                border-top: 1px solid {color:Border Color};
+            }
+
+            @media (max-width: 767px) {
+
+                .post{
+                    border-top: 1px solid {color:Border Color};
+                }
+                
+            }
+            .main-nav,
+            .post-content,
+            {
+                border-bottom: 1px solid {color:Border Color};
+            }
+            
+            .progress,
+            .post.is-answer .post__question:after,
+            .post-content.is-answer .post-content__question:after
+            {
+                background: {color:Border Color};
+            }
+            
+            .brand__desc,
+            .brand .brand__desc,
+            .main-nav__item a:not(.btn),
+            .post.is-text .post__content,
+            .post.is-audio .post__content,
+            .post.is-video .post__content,
+            .post.is-list .post__content,
+            .post.is-chat .post__content,
+            .post.is-link .post__content,
+            .post.is-quote .post__content,
+            .post.is-answer .post__content,
+            .post-footer__date,
+            .post-notes ol
+            {
+                color: {color:Text Color 1};
+            }
+            
+            h6,
+            .btn.is-outline.is-white:hover,
+            .btn.is-outline.is-white:active,
+            .btn.is-outline.is-white:focus,
+            .btn.is-outline.is-black,
+            .btn.is-link.is-black,
+            .pagination__item,
+            .Promo Box__name,
+            .post.is-text .post__title,
+            .post.is-audio .post__title,
+            .post.is-video .post__title,
+            .post.is-list .post__title,
+            .post.is-chat .post__title,
+            .post.is-link .post__title,
+            .post.is-quote .post__title,
+            .post.is-answer .post__title,
+            .post.is-quote .post__main-quote,
+            .post.is-answer .post__question,
+            .post.is-chat ul:first-child strong,
+            .post.is-link strong,
+            .post-content.is-chat ul:first-child strong,
+            .post-content.is-answer .post-content__question,
+            .main-footer__copyrights a,
+            .post-content.is-quote .post-content__main-quote
+            {
+                color: {color:Text Color 2}
+            }
+            
+            .nav__item,
+            .post-content,
+            .main-footer .brand
+            {
+                color: {color:Text Color 3}
+            }
+        </style>
+        <style  type="text/css">
+            {CustomCSS}
+        </style>
+    </head>
+<body id="sticky-nav-container">
+
+    
+    <header class="main-header">
+        <div class="main-header__top">
+            <div class="container">
+                <div class="main-header__top-wrapper">
+                    <div class="brand">
+                        {block:IfNotShowCustomlogo}
+                        <a href="/">
+                            <h1 class="brand__name">{Title}</h1>
+                        </a>
+                        {/block:IfNotShowCustomlogo}
+                        {block:IfShowCustomlogo}
+                        <a href="/">
+                            <img class="brand__logo" src="{image:Header Logo}" alt="{Title}">
+                        </a>
+                        {/block:IfShowCustomlogo}
+                        
+                        {block:Description}
+                        <p class="brand__desc">
+                            {Description}
+                        </p>
+                        {/block:Description}
+           
+                    </div>
+                    <div class="rail main-header__social">
+                        {block:IfFacebookUrl}
+                        <a class="btn is-black is-xs is-icon is-outline" href="{text:Facebook Url}">
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                               <path d="M288,192v-38.1c0-17.2,3.8-25.9,30.5-25.9H352V64h-55.9c-68.5,0-91.1,31.4-91.1,85.3V192h-45v64h45v192h83V256h56.4l7.6-64
+                                   H288z"/>
+                               </svg>
+                            </i>
+                        </a>
+                        {/block:IfFacebookURL}
+                        {block:IfTwitterUrl}
+                        <a class="btn is-black is-xs is-icon is-outline" href="{text:Twitter URL}">
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                               <path d="M492,109.5c-17.4,7.7-36,12.9-55.6,15.3c20-12,35.4-31,42.6-53.6c-18.7,11.1-39.4,19.2-61.5,23.5
+                                   C399.8,75.8,374.6,64,346.8,64c-53.5,0-96.8,43.4-96.8,96.9c0,7.6,0.8,15,2.5,22.1c-80.5-4-151.9-42.6-199.6-101.3
+                                   c-8.3,14.3-13.1,31-13.1,48.7c0,33.6,17.2,63.3,43.2,80.7C67,210.7,52,206.3,39,199c0,0.4,0,0.8,0,1.2c0,47,33.4,86.1,77.7,95
+                                   c-8.1,2.2-16.7,3.4-25.5,3.4c-6.2,0-12.3-0.6-18.2-1.8c12.3,38.5,48.1,66.5,90.5,67.3c-33.1,26-74.9,41.5-120.3,41.5
+                                   c-7.8,0-15.5-0.5-23.1-1.4C62.8,432,113.7,448,168.3,448C346.6,448,444,300.3,444,172.2c0-4.2-0.1-8.4-0.3-12.5
+                                   C462.6,146,479,129,492,109.5z"/>
+                               </svg>
+                            </i>
+                        </a>
+                        {block:IfTwitterUrl}
+                        {block:IfGooglePlusURL}
+                        <a class="btn is-black is-xs is-icon is-outline" href="{text:Google Plus URL}">
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                               <g>
+                                   <path d="M325.862,275.558l-18.187-13.653l-0.063-0.051c-5.827-4.579-9.952-8.313-9.952-14.685c0-6.979,5.049-11.824,10.896-17.436
+                                       l0.466-0.449c20.025-15.171,44.726-34.286,44.726-74.556c0-26.934-11.916-44.729-23.28-57.729h12.969l60.322-33H270.308
+                                       c-25.324,0-62.68,3.225-94.561,28.576l-0.128,0.25c-21.809,18.111-34.828,44.584-34.828,70.691
+                                       c0,21.197,8.706,42.159,23.885,57.447c21.428,21.579,48.302,26.127,67.074,26.127c1.462,0,2.956-0.028,4.47-0.093
+                                       c-0.759,2.969-1.25,6.321-1.25,10.321c0,10.926,3.628,19.301,8.083,26.195c-23.963,1.932-58.148,6.477-84.897,22.278
+                                       c-39.335,22.562-42.396,55.875-42.396,65.551c0,38.207,35.707,76.762,115.479,76.762c91.611,0,139.543-49.792,139.543-98.979
+                                       C370.781,311.966,347.945,293.457,325.862,275.558z M200.485,139.894c0-13.359,3.02-23.457,9.255-30.9
+                                       c6.514-7.852,18.18-13.129,29.028-13.129c19.881,0,32.938,15.008,40.388,27.598c9.199,15.539,14.913,36.095,14.913,53.643
+                                       c0,4.942,0,19.983-10.188,29.796c-6.951,6.686-18.707,11.353-28.59,11.353c-20.503,0-33.453-14.705-40.707-27.041
+                                       C204.189,173.53,200.485,153.109,200.485,139.894z M321.6,367.974c0,27.444-25.212,44.493-65.799,44.493
+                                       c-48.058,0-80.347-20.603-80.347-51.265c0-26.14,21.54-36.789,37.8-42.521c18.944-6.064,44.297-7.305,50.062-7.305
+                                       c3.907,0,6.087,0,8.683,0.229C308.7,336.816,321.6,347.733,321.6,367.974z"/>
+                               </g>
+                               </svg>
+                            </i>
+                        </a>
+                        {/block:IfGooglePlusURL}
+                        {block:IfInstagramURL}
+                        <a class="btn is-black is-xs is-icon is-outline" href="{text:Instagram URL}">
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <circle cx="256" cy="255.833" r="80"/>
+                                    </g>
+                                    <g>
+                                        <path d="M177.805,176.887c21.154-21.154,49.279-32.929,79.195-32.929s58.041,11.837,79.195,32.991
+                                            c13.422,13.422,23.011,29.551,28.232,47.551H448.5v-113c0-26.51-20.49-47-47-47h-288c-26.51,0-49,20.49-49,47v113h85.072
+                                            C154.794,206.5,164.383,190.309,177.805,176.887z M416.5,147.7c0,7.069-5.73,12.8-12.8,12.8h-38.4c-7.069,0-12.8-5.73-12.8-12.8
+                                            v-38.4c0-7.069,5.73-12.8,12.8-12.8h38.4c7.069,0,12.8,5.73,12.8,12.8V147.7z"/>
+                                        <path d="M336.195,335.279c-21.154,21.154-49.279,32.679-79.195,32.679s-58.041-11.462-79.195-32.616
+                                            c-21.115-21.115-32.759-49.842-32.803-78.842H64.5v143c0,26.51,22.49,49,49,49h288c26.51,0,47-22.49,47-49v-143h-79.502
+                                            C368.955,285.5,357.311,314.164,336.195,335.279z"/>
+                                    </g>
+                               </svg>
+                            </i>
+                        </a>
+                        {/block:IfInstagramURL}
+                        {block:IfPinterestURL}
+                        <a class="btn is-black is-xs is-icon is-outline" href="{text:Pinterest URL}">
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <g>
+                                        <path d="M256,32C132.3,32,32,132.3,32,256c0,91.7,55.2,170.5,134.1,205.2c-0.6-15.6-0.1-34.4,3.9-51.4
+                                            c4.3-18.2,28.8-122.1,28.8-122.1s-7.2-14.3-7.2-35.4c0-33.2,19.2-58,43.2-58c20.4,0,30.2,15.3,30.2,33.6
+                                            c0,20.5-13.1,51.1-19.8,79.5c-5.6,23.8,11.9,43.1,35.4,43.1c42.4,0,71-54.5,71-119.1c0-49.1-33.1-85.8-93.2-85.8
+                                            c-67.9,0-110.3,50.7-110.3,107.3c0,19.5,5.8,33.3,14.8,43.9c4.1,4.9,4.7,6.9,3.2,12.5c-1.1,4.1-3.5,14-4.6,18
+                                            c-1.5,5.7-6.1,7.7-11.2,5.6c-31.3-12.8-45.9-47-45.9-85.6c0-63.6,53.7-139.9,160.1-139.9c85.5,0,141.8,61.9,141.8,128.3
+                                            c0,87.9-48.9,153.5-120.9,153.5c-24.2,0-46.9-13.1-54.7-27.9c0,0-13,51.6-15.8,61.6c-4.7,17.3-14,34.5-22.5,48
+                                            c20.1,5.9,41.4,9.2,63.5,9.2c123.7,0,224-100.3,224-224C480,132.3,379.7,32,256,32z"/>
+                                    </g>
+                               </svg>
+                            </i>
+                        </a>
+                        {/block:IfPinterestURL}
+                        {block:IfShowSearchIcon}
+                        <a class="btn is-black is-xs is-icon is-outline" data-init-search>
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                               <path d="M445,386.7l-84.8-85.9c13.8-24.1,21-50.9,21-77.9c0-87.6-71.2-158.9-158.6-158.9C135.2,64,64,135.3,64,222.9
+                                   c0,87.6,71.2,158.9,158.6,158.9c27.9,0,55.5-7.7,80.1-22.4l84.4,85.6c1.9,1.9,4.6,3.1,7.3,3.1c2.7,0,5.4-1.1,7.3-3.1l43.3-43.8
+                                   C449,397.1,449,390.7,445,386.7z M222.6,125.9c53.4,0,96.8,43.5,96.8,97c0,53.5-43.4,97-96.8,97c-53.4,0-96.8-43.5-96.8-97
+                                   C125.8,169.4,169.2,125.9,222.6,125.9z"/>
+                               </svg>
+                            </i>
+                        </a>
+                        {/block:IfShowSearchIcon}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav main-header__nav" data-main-nav>
+            <div class="container swiper-container" data-nav-items-container>
+                <ul class="main-nav__list is-inline swiper-wrapper">
+                    <li class="main-nav__item swiper-slide {block:IndexPage} is-active{/block:IndexPage}">
+                        <a href="{BlogURL}">
+                            Cooking Ingredients:
+                        </a>
+                    </li>
+                    {block:HasPages}
+                    {block:Pages} 
+                    <li class="main-nav__item swiper-slide">
+                        <a href="{URL}">{Label}</a>
+                    </li>
+                    {/block:Pages}
+                    {/block:HasPages}
+                    <li class="main-nav__item swiper-slide">
+                        
+                    </li>
+                    {block:AskEnabled}
+                    <li class="main-nav__item swiper-slide">
+                        <a href="/ask">{AskLabel}</a>
+                    </li>
+                    {/block:AskEnabled}
+                </ul>
+            </div>
+        </nav>
+    </header>
+    {block:ifEnableProgressbar}
+    <div class="progress is-xs hidden">
+        <div class="progress__bar" data-post-progress-bar style="width:0%">
+        </div>
+    </div>
+    {/block:ifEnableProgressbar}{block:IndexPage}
+    {block:SearchPage}
+    <!-- 
+    {/block:SearchPage}
+    {block:TagPage}
+    <!-- 
+    {/block:TagPage}
+    <section class="categories" data-category-slider>
+        <div class="category__wrapper swiper-wrapper">
+            {block:IfPromoBoxName1}
+            <a class="category swiper-slide" href="{text:Promo Box URL 1}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 1}
+                </h2>
+                <img src="{image:Promo Box Background 1}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName1}
+    
+            {block:IfPromoBoxName2}
+            <a class="category swiper-slide" href="{text:Promo Box URL 2}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 2}
+                </h2>
+                <img src="{image:Promo Box Background 2}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName2}
+    
+            {block:IfPromoBoxName3}
+            <a class="category swiper-slide" href="{text:Promo Box URL 3}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 3}
+                </h2>
+                <img src="{image:Promo Box Background 3}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName3}
+    
+            {block:IfPromoBoxName4}
+            <a class="category swiper-slide" href="{text:Promo Box URL 4}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 4}
+                </h2>
+                <img src="{image:Promo Box Background 4}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName4}
+    
+            {block:IfPromoBoxName5}
+            <a class="category swiper-slide" href="{text:Promo Box URL 5}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 5}
+                </h2>
+                <img src="{image:Promo Box Background 5}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName5}
+    
+            {block:IfPromoBoxName6}
+            <a class="category swiper-slide" href="{text:Promo Box URL 6}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 6}
+                </h2>
+                <img src="{image:Promo Box Background 6}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName6}
+    
+            {block:IfPromoBoxName7}
+            <a class="category swiper-slide" href="{text:Promo Box URL 7}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 7}
+                </h2>
+                <img src="{image:Promo Box Background 7}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName7}
+    
+            {block:IfPromoBoxName8}
+            <a class="category swiper-slide" href="{text:Promo Box URL 8}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 8}
+                </h2>
+                <img src="{image:Promo Box Background 8}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName8}
+    
+            {block:IfPromoBoxName9}
+            <a class="category swiper-slide" href="{text:Promo Box URL 9}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 9}
+                </h2>
+                <img src="{image:Promo Box Background 9}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName9}
+    
+            {block:IfPromoBoxName10}
+            <a class="category swiper-slide" href="{text:Promo Box URL 10}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 10}
+                </h2>
+                <img src="{image:Promo Box Background 10}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName10}
+        </div>
+        <div class="categories__prev btn is-link is-white is-icon hidden" data-prev>
+            <span class="btn__icon">
+                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+               <path d="M189.8,349.7c3.1-3.1,3-8,0-11.3L123.4,264H408c4.4,0,8-3.6,8-8c0-4.4-3.6-8-8-8H123.4l66.3-74.4c2.9-3.4,3.2-8.1,0.1-11.2
+                   c-3.1-3.1-8.5-3.3-11.4-0.1c0,0-79.2,87-80,88S96,253.1,96,256s1.6,4.9,2.4,5.7s80,88,80,88c1.5,1.5,3.6,2.3,5.7,2.3
+                   C186.2,352,188.2,351.2,189.8,349.7z"/>
+               </svg>
+            </span>
+        </div>
+        <div class="categories__next btn is-link is-white is-icon hidden" data-next>
+            <i class="btn__icon">
+                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                   c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                   c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z"/>
+               </svg>
+            </i>
+        </div>
+    </section>
+    {block:SearchPage}
+    -->
+    {/block:SearchPage}
+    {block:TagPage}
+    -->
+    {/block:TagPage}{/block:IndexPage}
+    
+    {block:SearchPage}
+    <div class="container">
+        <h2 class="text-center {block:NoSearchResults}hidden{/block:NoSearchResults}">
+            {lang:Search results for SearchQuery 2}
+        </h2>
+        {block:NoSearchResults}
+        <div class="no-data">
+            <div class="no-data__icon">
+                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M432,80v352H80V80H432 M448,64H64v384h384V64L448,64z" />
+                            <g>
+                                <rect x="192" y="152" width="192" height="16" />
+                            </g>
+                            <g>
+                                <rect x="192" y="248" width="192" height="16" />
+                            </g>
+                            <g>
+                                <rect x="192" y="344" width="192" height="16" />
+                            </g>
+                        </g>
+                        <circle cx="144" cy="160" r="16" />
+                        <circle cx="144" cy="256" r="16" />
+                        <circle cx="144" cy="352" r="16" />
+                    </g>
+                </svg>
+                <span class="no-data__ribbon">
+                </span>
+            </div>
+    
+            <h2 class="no-data__title">
+                {lang:No results for SearchQuery 2}
+            </h2>
+        </div>
+        {/block:NoSearchResults}
+    </div>
+    {/block:SearchPage} 
+    {block:TagPage}
+    <div class="container">
+        <h2 class="text-center">
+            {lang:Posts tagged Tag 2}
+        </h2>
+    </div>
+    {/block:TagPage} 
+    {block:IndexPage}
+    <section class="posts {block:NoSearchResults}hidden{/block:NoSearchResults}">
+        <div class="container has-posts">
+            <div class="preloader-container" data-grid-loader>
+                <div class="sk-folding-cube">
+                    <div class="sk-cube1 sk-cube"></div>
+                    <div class="sk-cube2 sk-cube"></div>
+                    <div class="sk-cube4 sk-cube"></div>
+                    <div class="sk-cube3 sk-cube"></div>
+                </div>
+            </div>
+            <div class="post-grid {select:Post Columns} is-visible" data-post-grid="{select:Pagination}">
+                {block:Posts}
+                <div id="{PostID}" class="post  is-{PostType} {block:Photoset}is-photoset{/block:Photoset}
+                {block:RebloggedFrom}is-reblogged{/block:RebloggedFrom} {block:More}has-read-more{/block:More} " {block:Photoset}data-photoset{/block:Photoset}>
+                    <div class="post__wrapper">
+                        {block:Text}
+                        <div class="post__content">
+                            {block:Title}
+                            <h3 class="post__title">
+                                {Title}
+                            </h3>
+                            {/block:Title} 
+                            {block:Body}
+                            {Body} 
+                            {/block:Body}
+                            {block:More}
+                            <div class="post__read-more justify-content-center">
+                                <a class="btn is-primary is-link" href="{Permalink}">
+                                    {lang:Read more}
+                                </a>
+                            </div>
+                            {/block:More}
+                        </div>
+                        <div class="post__footer rail">
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <a href="{Permalink}" class="btn is-primary is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Text} 
+                        {block:Quote}
+                        <div class="post__content">
+                            <blockquote class="post__main-quote">
+                                {Quote}
+                            </blockquote>
+                            <div class="d-flex justify-content-end">
+                                <div class="post__source">
+                                    {block:Source} {Source} {/block:Source}
+                                </div>
+                            </div>
+                            <i class="post__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path d="M192,64c-40.646,0-72.483,11.229-94.627,33.373C75.229,119.517,64,151.354,64,192v256h160V192h-96
+                                                c0-23.056,4.922-39.666,14.627-49.373C152.334,132.922,168.944,128,192,128" />
+                                        </g>
+                                        <g>
+                                            <path d="M416,64c-40.646,0-72.483,11.229-94.627,33.373C299.229,119.517,288,151.354,288,192v256h160V192h-96
+                                                c0-23.056,4.922-39.666,14.627-49.373C376.334,132.922,392.944,128,416,128" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </i>
+                            {block:More}
+                            <div class="post__read-more justify-content-center">
+                                <a class="btn is-primary is-link" href="{Permalink}">
+                                    {lang:Read more}
+                                </a>
+                            </div>
+                            {/block:More}
+                        </div>
+                        <div class="post__footer rail">
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <a href="{Permalink}" class="btn is-primary is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Quote} 
+                        {block:Link}
+                        <div class="post__content">
+                            <h3>
+                                <a class="post__link" href="{URL}" {Target}>
+                                    {Name}
+                                </a>
+                            </h3>
+                            {block:Description}
+                            {Description} 
+                            {/block:Description}
+                            {block:More}
+                            <div class="post__read-more justify-content-center">
+                                <a class="btn is-primary is-link" href="{Permalink}">
+                                    {lang:Read more}
+                                </a>
+                            </div>
+                            {/block:More}
+                        </div>
+                        <div class="post__footer rail">
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <a href="{Permalink}" class="btn is-primary is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Link} 
+                        {block:Audio}
+                        <div class="post__content">
+                            {block:AudioEmbed} {AudioEmbed color="white"} {/block:AudioEmbed} {block:AudioPlayer}{AudioPlayerBlack}{/block:AudioPlayer}
+                            {block:Caption}
+                            {Caption}
+                            {/block:caption}
+                            
+                            {block:More}
+                            <div class="post__read-more justify-content-center">
+                                <a class="btn is-primary is-link" href="{Permalink}">
+                                    {lang:Read more}
+                                </a>
+                            </div>
+                            {/block:More}
+                        </div>
+                        <div class="post__footer rail">
+    
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <a href="{Permalink}" class="btn is-primary is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                                                    c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                                                    c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z"
+                                        />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Audio} 
+                        {block:Video}
+                        <div class="post__content">
+                            {Video-500} 
+                            {block:Caption}
+                            {Caption}
+                            {/block:caption}
+                            {block:More}
+                            <div class="post__read-more justify-content-center">
+                                <a class="btn is-primary is-link" href="{Permalink}">
+                                    {lang:Read more}
+                                </a>
+                            </div>
+                            {/block:More}
+                        </div>
+                        <div class="post__footer rail">
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <a href="{Permalink}" class="btn is-primary is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Video} 
+                        {block:Photo}
+                        <div class="post__content">
+                            <img class="post__main-photo" src="{PhotoURL-500}" alt="{PhotoAlt}">
+                        </div>
+                        <div class="post__action rail">
+                            <div class="tumblr-reblog is-white">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon is-white">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like is-white">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon is-white">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            {block:LinkURL}
+                            <a href="{LinkURL}" target="_blank" class="btn is-white is-link is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <g>
+                                            <path d="M368,224c26.5,0,48-21.5,48-48c0-26.5-21.5-48-48-48c-26.5,0-48,21.5-48,48C320,202.5,341.5,224,368,224z" />
+                                            <path d="M452,64H60c-15.6,0-28,12.7-28,28.3v327.4c0,15.6,12.4,28.3,28,28.3h392c15.6,0,28-12.7,28-28.3V92.3
+                                                    C480,76.7,467.6,64,452,64z M348.9,261.7c-3-3.5-7.6-6.2-12.8-6.2c-5.1,0-8.7,2.4-12.8,5.7l-18.7,15.8c-3.9,2.8-7,4.7-11.5,4.7
+                                                    c-4.3,0-8.2-1.6-11-4.1c-1-0.9-2.8-2.6-4.3-4.1L224,215.3c-4-4.6-10-7.5-16.7-7.5c-6.7,0-12.9,3.3-16.8,7.8L64,368.2V107.7
+                                                    c1-6.8,6.3-11.7,13.1-11.7h357.7c6.9,0,12.5,5.1,12.9,12l0.3,260.4L348.9,261.7z"
+                                            />
+                                        </g>
+                                    </svg>
+                                </i>
+                            </a>
+                            {/block:LinkURL}
+                            <a href="{Permalink}" class="btn is-white is-link is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        <div class="hidden">
+                            {block:Caption}
+                            {Caption}
+                            {/block:caption}
+                        </div>
+                        {/block:Photo} 
+    
+                        {block:Panorama}
+                        <div class="post__content">
+                                <img class="post__main-photo" src="{PhotoURL-500}" alt="{PhotoAlt}">
+                            </div>
+                            <div class="post__action rail">
+                                <div class="tumblr-reblog is-white">
+                                    {ReblogButton color="grey"}
+                                    <span class="btn is-link is-icon is-white">
+                                        <i class="btn__icon">
+                                            <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                                style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                                <g id="PL_x5F_Reset_1_">
+                                                    <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                                   C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                                   l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                    />
+                                                </g>
+                                            </svg>
+                                        </i>
+                                    </span>
+                                </div>
+                                <div class="tumblr-like is-white">
+                                    {LikeButton color="grey"}
+                                    <span class="btn is-link is-icon is-white">
+                                        <i class="btn__icon">
+                                            <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                                y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                                enable-background="new 0 0 512 512" xml:space="preserve">
+                                                <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                                c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                                c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                    M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                                c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                                C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                                C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                                C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                                C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                                />
+                                            </svg>
+                                            <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                                x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                                c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                                c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                                />
+                                            </svg>
+                                        </i>
+                                    </span>
+                                </div>
+                                {block:LinkURL}
+                                <a href="{LinkURL}" target="_blank" class="btn is-white is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                            xml:space="preserve">
+                                            <g>
+                                                <path d="M368,224c26.5,0,48-21.5,48-48c0-26.5-21.5-48-48-48c-26.5,0-48,21.5-48,48C320,202.5,341.5,224,368,224z" />
+                                                <path d="M452,64H60c-15.6,0-28,12.7-28,28.3v327.4c0,15.6,12.4,28.3,28,28.3h392c15.6,0,28-12.7,28-28.3V92.3
+                                                        C480,76.7,467.6,64,452,64z M348.9,261.7c-3-3.5-7.6-6.2-12.8-6.2c-5.1,0-8.7,2.4-12.8,5.7l-18.7,15.8c-3.9,2.8-7,4.7-11.5,4.7
+                                                        c-4.3,0-8.2-1.6-11-4.1c-1-0.9-2.8-2.6-4.3-4.1L224,215.3c-4-4.6-10-7.5-16.7-7.5c-6.7,0-12.9,3.3-16.8,7.8L64,368.2V107.7
+                                                        c1-6.8,6.3-11.7,13.1-11.7h357.7c6.9,0,12.5,5.1,12.9,12l0.3,260.4L348.9,261.7z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </a>
+                                {/block:LinkURL}
+                                <a href="{Permalink}" class="btn is-white is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                            xml:space="preserve">
+                                            <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                            c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                            c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                        </svg>
+                                    </i>
+                                </a>
+                            </div>
+                            <div class="hidden">
+                                {block:Caption}
+                                {Caption}
+                                {/block:caption}
+                            </div>
+    
+                        {/block:Panorama}
+                        {block:Photoset} 
+                        {block:Photos}
+                        <img class="post__main-photo" src="{PhotoURL-500}" alt="{PhotoAlt}">
+                        <!--
+                            {/block:Photos}
+                            -->
+                        <div class="post_gallery hidden" data-photoset-gallery>
+                            {block:Photos}
+                            <a href="{PhotoURL-HighRes}"  alt="{block:Caption}{Caption}{/block:caption}"></a>
+                            {/block:Photos}
+                        </div>
+                        <span class="post__photo-counter btn is-xs is-white is-link" data-init-gallery>
+                            {PhotoCount} {lang:Photos}
+                        </span>
+                        <div class="post__action rail">
+                            <div class="tumblr-reblog is-white">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon is-white">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like is-white">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon is-white">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <span class="btn is-white is-link is-icon" data-init-gallery>
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path d="M457.6,140.2l-82.5-4l-4.8-53.8c-1-11.3-11.1-19.2-22.9-18.3L51.4,88.4c-11.8,1-20.3,10.5-19.4,21.7l21.2,235.8
+                                               c1,11.3,11.2,19.2,22.9,18.3l15-1.2l-2.4,45.8c-0.6,12.6,9.2,22.8,22.4,23.5L441.3,448c13.2,0.6,24.1-8.6,24.8-21.2L480,163.5
+                                               C480.6,151,470.7,140.8,457.6,140.2z M102.6,145.5l-7.1,134.8L78.1,305l-16-178c0-0.2,0-0.3,0-0.5s0-0.3,0-0.5
+                                               c0.5-5,4.3-9,9.5-9.4l261-21.4c5.2-0.4,9.7,3,10.5,7.9c0,0.2,0.3,0.2,0.3,0.4c0,0.1,0.3,0.2,0.3,0.4l2.7,30.8l-219-10.5
+                                               C114.2,123.8,103.2,133,102.6,145.5z M436.7,382.4l-46.7-55.3l-27.5-32.7c-2.4-2.9-6.3-5.3-10.6-5.5c-4.3-0.2-7.5,1.5-11.1,4.1
+                                               l-16.4,11.9c-3.5,2.1-6.2,3.5-9.9,3.3c-3.6-0.2-6.8-1.6-9.1-3.8c-0.8-0.8-2.3-2.2-3.5-3.4l-42.8-48.9c-3.1-3.9-8.2-6.4-13.8-6.7
+                                               c-5.7-0.3-11.2,2.1-14.8,5.6L129.4,359.8l-6.8,7.4l0.3-6.8l6.8-128.9l3.3-62.9c0-0.2,0-0.4,0-0.5c0-0.2,0-0.4,0-0.5
+                                               c1.4-5.4,6.2-9.3,11.9-9l204.2,9.8l28.7,1.4l58.3,2.8c5.8,0.3,10.3,4.7,10.4,10.2c0,0.2,0.3,0.3,0.3,0.5c0,0.2,0.3,0.3,0.3,0.5
+                                               L436.7,382.4z" />
+                                            </g>
+                                            <path d="M373.2,262.3c19.4,0,35.2-15.8,35.2-35.2s-15.7-35.2-35.2-35.2c-19.4,0-35.2,15.7-35.2,35.2S353.7,262.3,373.2,262.3z"
+                                            />
+                                        </g>
+                                    </svg>
+                                </i>
+                            </span>
+                            <a href="{Permalink}" class="btn is-white is-link is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Photoset} 
+                        {block:Answer}
+                        <div class="post__content">
+                            <div class="rail post__asked">
+                                <img src="{AskerPortraitURL-30}" alt="">
+                                <div class="text">Asked by
+                                    <a href="#">{Asker}</a>
+                                </div>
+                            </div>
+                            <blockquote class="post__question">
+                                {Question}
+                            </blockquote>
+                            <div class="rail post__answerer">
+                                <img src="{AnswererPortraitURL-30}" alt="">
+                                <div class="text">Answerer by
+                                    <a href="#">{Answerer}</a>
+                                </div>
+                            </div>
+                            {Answer} {block:More}
+                            <div class="post__read-more justify-content-center">
+                                <a class="btn is-primary is-link" href="{Permalink}">
+                                    {lang:Read more}
+                                </a>
+                            </div>
+                            {/block:More}
+                        </div>
+                        <div class="post__footer rail">
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+    
+                            <a href="{Permalink}" class="btn is-primary is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Answer} 
+                        {block:Chat}
+                        <div class="post__content">
+                            <ul class="is-simple">
+                                {block:Lines}
+                                <li>
+                                    {block:Label}
+                                    <strong>{Label}</strong>{/block:Label} {Line}
+                                </li>
+                                {/block:Lines}
+                            </ul>
+                            {block:More}
+                            <div class="post__read-more justify-content-center">
+                                <a class="btn is-primary is-link" href="{Permalink}">
+                                    {lang:Read more}
+                                </a>
+                            </div>
+                            {/block:More}
+                        </div>
+                        <div class="post__footer rail">
+    
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                            <g id="PL_x5F_Reset_1_">
+                                                <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"
+                                                />
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <a href="{Permalink}" class="btn is-primary is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                        c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                        c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z" />
+                                    </svg>
+                                </i>
+                            </a>
+                        </div>
+                        {/block:Chat}
+                    </div>
+                </div>
+                {/block:Posts}
+            </div>
+        </div>
+    </section>
+    {/block:IndexPage} 
+    {block:Pagination}
+    <div class="pagination  d-flex justify-content-center" data-pagination="{select:Pagination}">
+        {block:NextPage}
+        <a class="btn is-sm is-primary" href="{NextPage}" data-load-more>
+            {lang:Load more posts}
+        </a>
+        {/block:NextPage}
+        <div class="pagination__normal pagination" data-normal-pagination>
+            {block:PreviousPage}
+    
+            <a href="{PreviousPage}" class="pagination__item is-icon">
+                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                    xml:space="preserve">
+                    <path d="M189.8,349.7c3.1-3.1,3-8,0-11.3L123.4,264H408c4.4,0,8-3.6,8-8c0-4.4-3.6-8-8-8H123.4l66.3-74.4c2.9-3.4,3.2-8.1,0.1-11.2
+                    c-3.1-3.1-8.5-3.3-11.4-0.1c0,0-79.2,87-80,88S96,253.1,96,256s1.6,4.9,2.4,5.7s80,88,80,88c1.5,1.5,3.6,2.3,5.7,2.3
+                    C186.2,352,188.2,351.2,189.8,349.7z"></path>
+                </svg>
+            </a>
+    
+            {/block:PreviousPage} {block:JumpPagination length="5"} {block:CurrentPage}
+            <span class="pagination__item is-active">{PageNumber}</span>
+            {/block:CurrentPage} {block:JumpPage}
+            <a class="pagination__item" href="{URL}">{PageNumber}</a>
+            {/block:JumpPage} {/block:JumpPagination} {block:NextPage}
+            <a href="{NextPage}" class="pagination__item is-icon">
+                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                    xml:space="preserve">
+                    <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                    c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                    c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z"></path>
+                </svg>
+            </a>
+            {/block:NextPage}
+        </div>
+        <div class="sk-folding-cube hidden" data-posts-loader="">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    
+    {/block:Pagination}{block:Posts}
+    {block:PermalinkPage} 
+    <div class="post-content is-{PostType}" data-post-content {block:Posts} {block:Photoset} data-photoset{/block:Photoset}{/block:Posts}>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    {block:Posts}
+                        {block:Text}
+                        {block:Title}
+                        <h3 class="post-content__title">
+                            {Title}
+                        </h3>
+                        {/block:Title} 
+                        {block:Body}
+                        {Body} 
+                        {/block:Body}
+                        {/block:Text} 
+    
+    
+                        {block:Quote}
+                        <blockquote class="post-content__main-quote">
+                            {Quote}
+                        </blockquote>
+                        <div class="d-flex justify-content-end">
+                            <div class="post-content__source">
+                                {block:Source}
+                                {Source}
+                                {/block:Source}
+                            </div>  
+                        </div>  
+                        {/block:Quote} 
+    
+    
+                        {block:Link}
+                        <a class="post-content__link" href="{URL}" {Target}>
+                            {Name}
+                        </a>
+                        {block:Description}
+                        {Description} 
+                        {/block:Description}
+                        {/block:Link}
+    
+    
+                        {block:Audio}
+                            {block:AudioEmbed} {AudioEmbed color="white"} {/block:AudioEmbed} 
+                            {block:AudioPlayer}{AudioPlayerBlack}{/block:AudioPlayer}
+                            {block:Caption}
+                            {Caption}
+                            {/block:caption}
+                        {/block:Audio} 
+    
+    
+                        {block:video}
+                        {Video-500}
+                        {block:Caption}
+                        {Caption}
+                        {/block:caption}
+                        {/block:video} 
+    
+    
+                        {block:Photo}
+                        {LinkOpenTag}
+                        <img class="post-content__main-photo" src="{PhotoURL-HighRes}" alt="{PhotoAlt}">
+                        {LinkCloseTag}
+                        {block:Caption}
+                        {Caption}
+                        {/block:caption}
+                        {/block:Photo} 
+    
+                        
+                        {block:Panorama}
+                        {LinkOpenTag}
+                        <img class="post-content__main-photo" src="{PhotoURL-Panorama}" alt="{PhotoAlt}">
+                        {LinkCloseTag}
+                        {block:Caption}
+                        {Caption}
+                        {/block:caption}
+                        {/block:Panorama}
+    
+                        {block:Photoset}
+                        <div class="post-content__photoset-grid" data-layout="{PhotosetLayout}" data-photoset-gallery data-photoset-grid>
+                             {block:Photos}
+                            <img src="{PhotoURL-HighRes}" highresLinks="{PhotoURL-HighRes}" alt="{block:Caption}{Caption}{/block:caption}">
+                            {/block:Photos}
+                        </div>
+                        {block:Caption}
+                        {Caption}
+                        {/block:caption}
+    
+                        {/block:Photoset} 
+                        {block:Answer}
+                        <div class="rail post-content__asked">
+                            <img src="{AskerPortraitURL-30}" alt="">
+                            <div class="text">Asked by
+                                <a href="#">{Asker}</a>
+                            </div>
+                        </div>
+                        <blockquote class="post-content__question">
+                            {Question}
+                        </blockquote>
+                        <div class="rail post-content__answerer">
+                            <img src="{AnswererPortraitURL-30}" alt="">
+                            <div class="text">Answerer by
+                                <a href="#">{Answerer}</a>
+                            </div>
+                        </div>
+                        {Answer}
+                        {/block:Answer}
+    
+                        {block:chat}
+                        <ul class="is-simple">
+                                {block:Lines}
+                                <li>
+                                    {block:Label}
+                                    <strong>{Label}</strong>{/block:Label} {Line}
+                                </li>
+                                {/block:Lines}
+                  
+                        </ul>
+                        {/block:chat}
+                    {/block:Posts}
+                </div>
+            </div>
+            {block:Date} 
+            <div class="post-content__sidebar-container">
+                <div class="post-content__sidebar is-hidden" data-post-sidebar>
+                    <div class="tumblr-reblog">
+                        <span class="btn is-link is-icon">
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g id="PL_x5F_Reset_1_">
+                                    <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                        C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                        l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"/>
+                                </g>
+                                </svg>
+                            </i>
+                        </span>
+                    </div>
+                    <div class="tumblr-like" data-secoundary-like-button>
+                        <span class="like_button"></span>
+    
+                        <span class="btn is-link is-icon">
+                            <i class="btn__icon">
+                                <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                    y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                    enable-background="new 0 0 512 512" xml:space="preserve">
+                                    <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                    c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                    c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                        M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                    c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                    C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                    C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                    C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                    C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                    />
+                                </svg>
+                                <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                    xml:space="preserve">
+                                    <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                    c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                    c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                    />
+                                </svg>
+                            </i>
+                        </span>
+                    </div>
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={Permalink}" class="btn is-link is-icon">
+                        <i class="btn__icon">
+                            <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <path d="M288,192v-38.1c0-17.2,3.8-25.9,30.5-25.9H352V64h-55.9c-68.5,0-91.1,31.4-91.1,85.3V192h-45v64h45v192h83V256h56.4l7.6-64
+                                H288z M330.2,240h-41.1H272v15.5V432h-51V255.5V240h-14.9H176v-32h30.1H221v-16.5v-42.2c0-24.5,5.4-41.2,15.5-51.8
+                                C247.7,85.5,267.6,80,296.1,80H336v32h-17.5c-12,0-27.5,1.1-37.1,11.7c-8.1,9-9.4,20.1-9.4,30.1v37.6V208h17.1H334L330.2,240z"/>
+                            </svg>
+                        </i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/home?status={Permalink}" class="btn is-link is-icon">
+                        <i class="btn__icon">
+                            <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <path d="M492,109.5c-17.4,7.7-36,12.9-55.6,15.3c20-12,35.4-31,42.6-53.6c-18.7,11.1-39.4,19.2-61.5,23.5
+                                C399.8,75.8,374.5,64,346.8,64c-53.5,0-96.8,43.4-96.8,96.9c0,7.6,0.8,15,2.5,22.1C172,179,100.5,140.4,52.8,81.7
+                                c-8.3,14.3-13.1,31-13.1,48.7c0,33.6,17.1,63.3,43.1,80.7C67,210.7,52,206.3,39,199c0,0.4,0,0.8,0,1.2c0,47,33.4,86.1,77.7,95
+                                c-8.1,2.2-16.7,3.4-25.5,3.4c-6.2,0-12.3-0.6-18.2-1.8c12.3,38.5,48.1,66.5,90.5,67.3c-33.1,26-74.9,41.5-120.3,41.5
+                                c-7.8,0-15.5-0.5-23.1-1.4C62.8,432,113.7,448,168.3,448C346.5,448,444,300.3,444,172.2c0-4.2-0.1-8.4-0.3-12.5
+                                C462.5,146,479,129,492,109.5z M434.2,146.7l-7,5.1l0.4,8.6c0.2,3.8,0.3,7.8,0.3,11.8c0,30.2-5.9,61.8-17,91.5
+                                c-11.7,31.2-28.5,59.4-50,83.8c-23,26.1-50.2,46.5-81.1,60.8c-33.8,15.7-71.3,23.6-111.5,23.6c-28.9,0-57.4-4.8-84.5-14.2
+                                c9.9-1.9,19.6-4.6,29.1-7.9c21.7-7.6,41.9-18.7,60.1-33l35.3-27.7l-44.9-0.8c-26.1-0.5-49.7-13.4-64.3-33.9
+                                c7.3-0.5,14.5-1.8,21.5-3.7l60.7-20.2l-61.7-10.9c-29.6-5.9-52.8-27.9-61.3-55.8c7.8,2,15.4,2.8,23.9,3.3c0,0,31.8,1.4,55.8-0.1
+                                c-13-6.2-46.4-29.2-46.4-29.2c-22.5-15.1-36-40.2-36-67.4c0-6.4,0.8-12.8,2.2-19c21.9,22.4,47,41.1,75.1,55.5
+                                c37,19.1,76.9,29.8,118.6,31.9l21.2,1.1l-4.8-20.7c-1.4-5.9-2.1-12.1-2.1-18.5c0-44.4,36.3-80.7,80.9-80.7c22.3,0,43.8,9.3,59,25.6
+                                l6.1,6.5l8.7-1.7c4.5-0.9,8.9-1.9,13.3-3.1c-1,1.4-5.7,6.1-11,10.8c-4.5,4-17.8,16.5-17.8,16.5s13,4.1,21.1,5
+                                c8.1,0.9,17.4-0.6,18.9-0.8C442.2,141.1,437.2,144.6,434.2,146.7z"/>
+                            </svg>
+                        </i>
+                    </a>
+                    {block:Posts}
+                    {block:Photo}
+                    <a target="_blank" href="https://pinterest.com/pin/create/button/?url={Permalink}&media={PhotoURL-HighRes}&description={PhotoAlt}" class="btn is-link is-icon">
+                        <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <path d="M256,32C132.3,32,32,132.3,32,256s100.3,224,224,224s224-100.3,224-224S379.7,32,256,32z M391.8,391.8
+                                C355.5,428,307.3,448,256,448c-16.2,0-32.1-2-47.4-5.9c2.8-6.3,5.2-12.8,7-19.3c2.8-10,15.8-61.6,15.8-61.6
+                                c7.8,14.8,30.5,27.9,54.7,27.9c72,0,120.9-65.6,120.9-153.5c0-66.4-56.3-128.3-141.8-128.3c-106.4,0-160.1,76.3-160.1,139.9
+                                c0,38.5,14.6,72.8,45.9,85.6c5.1,2.1,9.7,0.1,11.2-5.6c1-3.9,3.5-13.9,4.6-18c1.5-5.6,0.9-7.6-3.2-12.5c-9-10.7-14.8-24.4-14.8-43.9
+                                c0-56.6,42.3-107.3,110.3-107.3c60.1,0,93.2,36.7,93.2,85.8c0,64.6-28.6,119.1-71,119.1c-23.4,0-41-19.4-35.4-43.1
+                                c6.7-28.4,19.8-59,19.8-79.5c0-18.3-9.8-33.6-30.2-33.6c-24,0-43.2,24.8-43.2,58c0,21.1,7.2,35.4,7.2,35.4s-24.5,103.9-28.8,122.1
+                                c-1.3,5.5-2.2,11.1-2.9,16.8c-17.3-9-33.3-20.6-47.4-34.8C84,355.5,64,307.3,64,256s20-99.5,56.2-135.8C156.5,84,204.7,64,256,64
+                                s99.5,20,135.8,56.2C428,156.5,448,204.7,448,256S428,355.5,391.8,391.8z"/>
+                            </svg>
+                        </i>
+                    </a>
+                    {/block:Photo}
+                    {/block:Posts}
+                    <a target="_blank" href="https://plus.google.com/share?url={Permalink}" class="btn is-link is-icon">
+                            <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <path d="M223.5,82.1c11.8,9.6,36.4,29.7,36.4,68c0,37.3-21.5,54.9-43.1,71.5c-6.7,6.6-14.4,13.6-14.4,24.7
+                                        c0,11.1,7.7,17.2,13.3,21.7l18.5,14.1c22.6,18.6,43.1,35.8,43.1,70.6c0,47.4-46.7,95.2-135,95.2C67.9,448,32,413.2,32,375.9
+                                        c0-18.1,9.2-43.8,39.5-61.5c31.8-19.1,75-21.7,98-23.2c-7.2-9.1-15.4-18.7-15.4-34.3c0-8.6,2.6-13.6,5.1-19.7
+                                        c-5.6,0.5-11.3,1-16.4,1c-54.4,0-85.2-39.8-85.2-79.1c0-23.2,10.8-48.9,32.9-67.5C119.8,68,154.7,64,182.4,64h105.7l-32.8,18.1
+                                        H223.5z M187,305.9c-4.1-0.5-6.7-0.5-11.8-0.5c-4.6,0-32.3,1-53.9,8c-11.3,4-44.1,16.1-44.1,51.9c0,35.8,35.4,61.5,90.3,61.5
+                                        c49.3,0,75.4-23.2,75.4-54.4C242.9,346.7,226,333.1,187,305.9 M201.9,210.1c11.8-11.6,12.8-27.7,12.8-36.8
+                                        c0-36.3-22.1-92.7-64.7-92.7c-13.3,0-27.7,6.5-35.9,16.6c-8.7,10.6-11.3,24.2-11.3,37.3c0,33.8,20,89.7,64.2,89.7
+                                        C179.8,224.3,193.6,218.2,201.9,210.1"/>
+                                    <polygon points="480,142.3 401.7,142.3 401.7,64.1 384,64.1 384,142.3 304.3,142.3 304.3,160.1 384,160.1 384,241 401.7,241 
+                                        401.7,160.1 480,160.1 	"/>
+                                </g>
+                               </svg>	
+                            </i>					
+                    </a>
+    
+                    {block:IfDisqusShortname}
+                    <a target="_blank" href="#recent-comments" data-toggle="tab" class="btn is-link is-icon">
+                        <i class="btn__icon">
+                            <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <polygon points="64,64 320,64 320,160 336,160 336,48 48,48 48,272 160,272 160,256 64,256 	"/>
+                                    <path d="M176,176v224h162.6l64,64H416v-64h48V176H176z M448,384h-48v54.6L345,384H192V192h256V384z"/>
+                                </g>
+                            </svg>
+                        </i>
+                    </a>
+                    {/block:IfDisqusShortname}
+                </div>
+            </div>
+            <div class="row justify-content-center post-content__nav">
+                <div class="col-sm-10">
+                    {block:IfShowTags}
+                    {block:HasTags}
+                    <div class="post-content__tags rail"> 
+                    {block:Tags} 
+                    <a href="{TagURL}" class="btn is-primary is-link is-xs">
+                        {Tag}
+                    </a>
+                    {/block:Tags}
+                    </div>
+                    {/block:HasTags}
+                    {/block:IfShowTags}
+                    {block:PermalinkPagination}
+                    <div class="d-flex justify-content-between">
+                        {block:PreviousPost}
+                        <a href="{PreviousPost}" class="btn is-link">
+                            <span class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                               <path d="M189.8,349.7c3.1-3.1,3-8,0-11.3L123.4,264H408c4.4,0,8-3.6,8-8c0-4.4-3.6-8-8-8H123.4l66.3-74.4c2.9-3.4,3.2-8.1,0.1-11.2
+                                   c-3.1-3.1-8.5-3.3-11.4-0.1c0,0-79.2,87-80,88S96,253.1,96,256s1.6,4.9,2.4,5.7s80,88,80,88c1.5,1.5,3.6,2.3,5.7,2.3
+                                   C186.2,352,188.2,351.2,189.8,349.7z"/>
+                               </svg>
+                            </span>
+                            <span class="btn__content">
+                                {lang:Prev post}
+                            </span>
+                        </a>
+                        {/block:PreviousPost}
+                        
+                        {block:NextPost}
+                        <a href="{NextPost}" class="btn is-link ml-auto">
+                            <span class="btn__content">
+                                {lang:Next post}	
+                            </span>
+                            <span class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                                   c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                                   c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z"/>
+                               </svg>
+                            </span>
+                        </a>
+                        {/block:NextPost}           
+                    </div>
+                    {/block:PermalinkPagination}
+                </div>
+            </div>
+            {/block:Date} 
+        </div>
+    </div>
+    {block:Date} 
+    <div class="post-footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <div class="d-flex justify-content-between align-items-center post-footer__actions">
+                        <div class="rail rail--1px">
+                            <div class="tumblr-reblog">
+                                {ReblogButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                       <g id="PL_x5F_Reset_1_">
+                                           <path d="M256,64c105.9,0,191.7,85.7,191.9,191.5l55-52.5l9,9.1L441.6,280L375,212.1l9-9.1l51.1,52.4
+                                               C434.8,156.9,354.6,76.8,256,76.8c-98.8,0-179.2,80.4-179.2,179.2c0,98.8,80.4,179.2,179.2,179.2c78.6,0,145.5-51,169.5-121.6
+                                               l12.4,3.5C412.3,393.2,340.6,448,256,448c-106,0-192-86-192-192S150,64,256,64z"/>
+                                       </g>
+                                       </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <div class="tumblr-like">
+                                {LikeButton color="grey"}
+                                <span class="btn is-link is-icon">
+                                    <i class="btn__icon">
+                                        <svg class="" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512"
+                                            enable-background="new 0 0 512 512" xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z
+                                                M426.83,291.141c-26.852,31.94-42.18,48.895-96.729,84.947c-40.237,26.596-65.252,36.301-74.102,39.233
+                                            c-8.85-2.933-33.864-12.639-74.102-39.233c-54.548-36.052-69.876-53.006-96.729-84.948c-12.065-14.351-21.857-31.274-28.316-48.943
+                                            C51.062,226.355,48,210.304,48,195.779c0-30.284,10.131-55.643,29.297-73.335c9.14-8.437,20.158-14.992,32.752-19.484
+                                            C122.994,98.341,137.315,96,152.615,96c38.018,0,73.217,17.682,89.674,45.046L256,163.844l13.711-22.798
+                                            C286.169,113.682,321.368,96,359.385,96c15.3,0,29.621,2.341,42.566,6.959c12.594,4.493,23.612,11.048,32.752,19.484
+                                            C453.869,140.136,464,165.495,464,195.779c0,14.525-3.062,30.576-8.854,46.418C448.688,259.865,438.896,276.789,426.83,291.141z"
+                                            />
+                                        </svg>
+                                        <svg class="liked" version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"
+                                            x="0px" y="0px" width="80px" height="80px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                            xml:space="preserve">
+                                            <path d="M359.385,80C319.966,80,277.171,97.599,256,132.8C234.83,97.599,192.034,80,152.615,80C83.647,80,32,123.238,32,195.779
+                                            c0,31.288,12.562,71.924,40.923,105.657c28.359,33.735,45.229,51.7,100.153,88C228,425.738,256,432,256,432s28-6.262,82.924-42.564
+                                            c54.923-36.3,71.794-54.265,100.153-88C467.438,267.703,480,227.067,480,195.779C480,123.238,428.353,80,359.385,80z"
+                                            />
+                                        </svg>
+                                    </i>
+                                </span>
+                            </div>
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={Permalink}" class="btn is-link is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                   <path d="M288,192v-38.1c0-17.2,3.8-25.9,30.5-25.9H352V64h-55.9c-68.5,0-91.1,31.4-91.1,85.3V192h-45v64h45v192h83V256h56.4l7.6-64
+                                       H288z M330.2,240h-41.1H272v15.5V432h-51V255.5V240h-14.9H176v-32h30.1H221v-16.5v-42.2c0-24.5,5.4-41.2,15.5-51.8
+                                       C247.7,85.5,267.6,80,296.1,80H336v32h-17.5c-12,0-27.5,1.1-37.1,11.7c-8.1,9-9.4,20.1-9.4,30.1v37.6V208h17.1H334L330.2,240z"/>
+                                   </svg>
+                                </i>
+                            </a>
+                            <a target="_blank" href="https://twitter.com/home?status={Permalink}" class="btn is-link is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                   <path d="M492,109.5c-17.4,7.7-36,12.9-55.6,15.3c20-12,35.4-31,42.6-53.6c-18.7,11.1-39.4,19.2-61.5,23.5
+                                       C399.8,75.8,374.5,64,346.8,64c-53.5,0-96.8,43.4-96.8,96.9c0,7.6,0.8,15,2.5,22.1C172,179,100.5,140.4,52.8,81.7
+                                       c-8.3,14.3-13.1,31-13.1,48.7c0,33.6,17.1,63.3,43.1,80.7C67,210.7,52,206.3,39,199c0,0.4,0,0.8,0,1.2c0,47,33.4,86.1,77.7,95
+                                       c-8.1,2.2-16.7,3.4-25.5,3.4c-6.2,0-12.3-0.6-18.2-1.8c12.3,38.5,48.1,66.5,90.5,67.3c-33.1,26-74.9,41.5-120.3,41.5
+                                       c-7.8,0-15.5-0.5-23.1-1.4C62.8,432,113.7,448,168.3,448C346.5,448,444,300.3,444,172.2c0-4.2-0.1-8.4-0.3-12.5
+                                       C462.5,146,479,129,492,109.5z M434.2,146.7l-7,5.1l0.4,8.6c0.2,3.8,0.3,7.8,0.3,11.8c0,30.2-5.9,61.8-17,91.5
+                                       c-11.7,31.2-28.5,59.4-50,83.8c-23,26.1-50.2,46.5-81.1,60.8c-33.8,15.7-71.3,23.6-111.5,23.6c-28.9,0-57.4-4.8-84.5-14.2
+                                       c9.9-1.9,19.6-4.6,29.1-7.9c21.7-7.6,41.9-18.7,60.1-33l35.3-27.7l-44.9-0.8c-26.1-0.5-49.7-13.4-64.3-33.9
+                                       c7.3-0.5,14.5-1.8,21.5-3.7l60.7-20.2l-61.7-10.9c-29.6-5.9-52.8-27.9-61.3-55.8c7.8,2,15.4,2.8,23.9,3.3c0,0,31.8,1.4,55.8-0.1
+                                       c-13-6.2-46.4-29.2-46.4-29.2c-22.5-15.1-36-40.2-36-67.4c0-6.4,0.8-12.8,2.2-19c21.9,22.4,47,41.1,75.1,55.5
+                                       c37,19.1,76.9,29.8,118.6,31.9l21.2,1.1l-4.8-20.7c-1.4-5.9-2.1-12.1-2.1-18.5c0-44.4,36.3-80.7,80.9-80.7c22.3,0,43.8,9.3,59,25.6
+                                       l6.1,6.5l8.7-1.7c4.5-0.9,8.9-1.9,13.3-3.1c-1,1.4-5.7,6.1-11,10.8c-4.5,4-17.8,16.5-17.8,16.5s13,4.1,21.1,5
+                                       c8.1,0.9,17.4-0.6,18.9-0.8C442.2,141.1,437.2,144.6,434.2,146.7z"/>
+                                   </svg>
+                                </i>
+                            </a>
+                            {block:Posts}
+                            {block:Photo}
+                            <a target="_blank" href="https://pinterest.com/pin/create/button/?url={Permalink}&media={PhotoURL-HighRes}&description={PhotoAlt}" class="btn is-link is-icon">
+                                <i class="btn__icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                   <path d="M256,32C132.3,32,32,132.3,32,256s100.3,224,224,224s224-100.3,224-224S379.7,32,256,32z M391.8,391.8
+                                       C355.5,428,307.3,448,256,448c-16.2,0-32.1-2-47.4-5.9c2.8-6.3,5.2-12.8,7-19.3c2.8-10,15.8-61.6,15.8-61.6
+                                       c7.8,14.8,30.5,27.9,54.7,27.9c72,0,120.9-65.6,120.9-153.5c0-66.4-56.3-128.3-141.8-128.3c-106.4,0-160.1,76.3-160.1,139.9
+                                       c0,38.5,14.6,72.8,45.9,85.6c5.1,2.1,9.7,0.1,11.2-5.6c1-3.9,3.5-13.9,4.6-18c1.5-5.6,0.9-7.6-3.2-12.5c-9-10.7-14.8-24.4-14.8-43.9
+                                       c0-56.6,42.3-107.3,110.3-107.3c60.1,0,93.2,36.7,93.2,85.8c0,64.6-28.6,119.1-71,119.1c-23.4,0-41-19.4-35.4-43.1
+                                       c6.7-28.4,19.8-59,19.8-79.5c0-18.3-9.8-33.6-30.2-33.6c-24,0-43.2,24.8-43.2,58c0,21.1,7.2,35.4,7.2,35.4s-24.5,103.9-28.8,122.1
+                                       c-1.3,5.5-2.2,11.1-2.9,16.8c-17.3-9-33.3-20.6-47.4-34.8C84,355.5,64,307.3,64,256s20-99.5,56.2-135.8C156.5,84,204.7,64,256,64
+                                       s99.5,20,135.8,56.2C428,156.5,448,204.7,448,256S428,355.5,391.8,391.8z"/>
+                                   </svg>
+                                </i>
+                            </a>
+                            {/block:Photo}
+                            {/block:Posts}
+                            <a target="_blank" href="https://plus.google.com/share?url={Permalink}" class="btn is-link is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <g>
+                                        <path d="M223.5,82.1c11.8,9.6,36.4,29.7,36.4,68c0,37.3-21.5,54.9-43.1,71.5c-6.7,6.6-14.4,13.6-14.4,24.7
+                                            c0,11.1,7.7,17.2,13.3,21.7l18.5,14.1c22.6,18.6,43.1,35.8,43.1,70.6c0,47.4-46.7,95.2-135,95.2C67.9,448,32,413.2,32,375.9
+                                            c0-18.1,9.2-43.8,39.5-61.5c31.8-19.1,75-21.7,98-23.2c-7.2-9.1-15.4-18.7-15.4-34.3c0-8.6,2.6-13.6,5.1-19.7
+                                            c-5.6,0.5-11.3,1-16.4,1c-54.4,0-85.2-39.8-85.2-79.1c0-23.2,10.8-48.9,32.9-67.5C119.8,68,154.7,64,182.4,64h105.7l-32.8,18.1
+                                            H223.5z M187,305.9c-4.1-0.5-6.7-0.5-11.8-0.5c-4.6,0-32.3,1-53.9,8c-11.3,4-44.1,16.1-44.1,51.9c0,35.8,35.4,61.5,90.3,61.5
+                                            c49.3,0,75.4-23.2,75.4-54.4C242.9,346.7,226,333.1,187,305.9 M201.9,210.1c11.8-11.6,12.8-27.7,12.8-36.8
+                                            c0-36.3-22.1-92.7-64.7-92.7c-13.3,0-27.7,6.5-35.9,16.6c-8.7,10.6-11.3,24.2-11.3,37.3c0,33.8,20,89.7,64.2,89.7
+                                            C179.8,224.3,193.6,218.2,201.9,210.1"/>
+                                        <polygon points="480,142.3 401.7,142.3 401.7,64.1 384,64.1 384,142.3 304.3,142.3 304.3,160.1 384,160.1 384,241 401.7,241 
+                                            401.7,160.1 480,160.1 	"/>
+                                    </g>
+                                   </svg>	
+                                </i>					
+                            </a>
+                            {block:IfDisqusShortname}
+                            <a target="_blank" href="#recent-comments" data-toggle="tab" class="btn is-link is-icon">
+                                <i class="btn__icon">
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <polygon points="64,64 320,64 320,160 336,160 336,48 48,48 48,272 160,272 160,256 64,256 	"/>
+                                            <path d="M176,176v224h162.6l64,64H416v-64h48V176H176z M448,384h-48v54.6L345,384H192V192h256V384z"/>
+                                        </g>
+                                   </svg>
+                                </i>
+                            </a>
+                            {/block:IfDisqusShortname}
+                        </div>
+                        <div class="post-footer__date">
+                                {block:NewDayDate}{TimeAgo}{/block:NewDayDate}
+                                {block:SameDayDate}{TimeAgo}{/block:SameDayDate} / {NoteCount}
+                        </div>
+                    </div>
+                    {block:IfDisqusShortname}
+                    <div class="nav nav-tabs" role="tablist">
+                        <a class="nav__item is-active" href="#recent-comments" data-toggle="tab">
+                            {lang:Recent comments}
+                        </a> 
+                        <a class="nav__item" href="#notes" data-toggle="tab">
+                            {lang:Notes}({NoteCount})
+                        </a>
+                    </div>
+                    {/block:IfDisqusShortname}
+                    <div class="tab-content">
+                        {block:IfDisqusShortname}
+    
+                        <div id="recent-comments" class="tab-pane fade show is-active">
+                            <div id="disqus_thread"></div>
+                            <script type="text/javascript">
+
+                                var disqus_shortname = '{text:Disqus Shortname}'; // Required - Enter shortname in Tumblr Theme Options
+                                var disqus_url = '{Permalink}'; 
+                            
+                                (function() {
+                                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                })();
+                            </script>
+                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            <a href="https://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+    
+                        {/block:IfDisqusShortname} 
+                        <div id="notes" class="tab-pane {block:IfNotDisqusShortname} is-active {/block:IfNotDisqusShortname}">
+                            <div class="post-notes">
+                                {block:PostNotes} 
+                                    {PostNotes}
+                                {/block:PostNotes}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/block:Date} 
+    {/block:PermalinkPage}
+    {/block:Posts}
+    {block:Posts}
+    
+    {block:PermalinkPage} 
+    {block:SearchPage}
+    <!-- 
+    {/block:SearchPage}
+    {block:TagPage}
+    <!-- 
+    {/block:TagPage}
+    <section class="categories" data-category-slider>
+        <div class="category__wrapper swiper-wrapper">
+            {block:IfPromoBoxName1}
+            <a class="category swiper-slide" href="{text:Promo Box URL 1}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 1}
+                </h2>
+                <img src="{image:Promo Box Background 1}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName1}
+    
+            {block:IfPromoBoxName2}
+            <a class="category swiper-slide" href="{text:Promo Box URL 2}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 2}
+                </h2>
+                <img src="{image:Promo Box Background 2}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName2}
+    
+            {block:IfPromoBoxName3}
+            <a class="category swiper-slide" href="{text:Promo Box URL 3}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 3}
+                </h2>
+                <img src="{image:Promo Box Background 3}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName3}
+    
+            {block:IfPromoBoxName4}
+            <a class="category swiper-slide" href="{text:Promo Box URL 4}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 4}
+                </h2>
+                <img src="{image:Promo Box Background 4}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName4}
+    
+            {block:IfPromoBoxName5}
+            <a class="category swiper-slide" href="{text:Promo Box URL 5}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 5}
+                </h2>
+                <img src="{image:Promo Box Background 5}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName5}
+    
+            {block:IfPromoBoxName6}
+            <a class="category swiper-slide" href="{text:Promo Box URL 6}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 6}
+                </h2>
+                <img src="{image:Promo Box Background 6}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName6}
+    
+            {block:IfPromoBoxName7}
+            <a class="category swiper-slide" href="{text:Promo Box URL 7}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 7}
+                </h2>
+                <img src="{image:Promo Box Background 7}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName7}
+    
+            {block:IfPromoBoxName8}
+            <a class="category swiper-slide" href="{text:Promo Box URL 8}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 8}
+                </h2>
+                <img src="{image:Promo Box Background 8}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName8}
+    
+            {block:IfPromoBoxName9}
+            <a class="category swiper-slide" href="{text:Promo Box URL 9}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 9}
+                </h2>
+                <img src="{image:Promo Box Background 9}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName9}
+    
+            {block:IfPromoBoxName10}
+            <a class="category swiper-slide" href="{text:Promo Box URL 10}">
+                <h2 class="category__name h6">
+                {text:Promo Box Name 10}
+                </h2>
+                <img src="{image:Promo Box Background 10}" class="category__bg">
+            </a>
+            {/block:IfPromoBoxName10}
+        </div>
+        <div class="categories__prev btn is-link is-white is-icon hidden" data-prev>
+            <span class="btn__icon">
+                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+               <path d="M189.8,349.7c3.1-3.1,3-8,0-11.3L123.4,264H408c4.4,0,8-3.6,8-8c0-4.4-3.6-8-8-8H123.4l66.3-74.4c2.9-3.4,3.2-8.1,0.1-11.2
+                   c-3.1-3.1-8.5-3.3-11.4-0.1c0,0-79.2,87-80,88S96,253.1,96,256s1.6,4.9,2.4,5.7s80,88,80,88c1.5,1.5,3.6,2.3,5.7,2.3
+                   C186.2,352,188.2,351.2,189.8,349.7z"/>
+               </svg>
+            </span>
+        </div>
+        <div class="categories__next btn is-link is-white is-icon hidden" data-next>
+            <i class="btn__icon">
+                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                <path d="M322.2,349.7c-3.1-3.1-3-8,0-11.3l66.4-74.4H104c-4.4,0-8-3.6-8-8c0-4.4,3.6-8,8-8h284.6l-66.3-74.4
+                   c-2.9-3.4-3.2-8.1-0.1-11.2c3.1-3.1,8.5-3.3,11.4-0.1c0,0,79.2,87,80,88s2.4,2.8,2.4,5.7s-1.6,4.9-2.4,5.7s-80,88-80,88
+                   c-1.5,1.5-3.6,2.3-5.7,2.3C325.8,352,323.8,351.2,322.2,349.7z"/>
+               </svg>
+            </i>
+        </div>
+    </section>
+    {block:SearchPage}
+    -->
+    {/block:SearchPage}
+    {block:TagPage}
+    -->
+    {/block:TagPage}{/block:PermalinkPage} 
+    
+    {/block:Posts}
+    
+    <footer class="main-footer {block:IfShowFooterBackground}is-bg{/block:IfShowFooterBackground} {block:IfNotShowFooterBackground}normal{/block:IfNotShowFooterBackground}">
+        <div class="brand {block:IfShowFooterBackground} is-white {/block:IfShowFooterBackground}">
+            {block:IfShowCustomlogo}
+            <img class="brand__logo" src="{image:Footer Logo}" alt="{Title}">
+            {/block:IfShowCustomlogo}
+    
+            {block:IfNotShowCustomlogo}
+            <h1 class="brand__name">{Title}</h1>
+            {/block:IfNotShowCustomlogo}
+    
+            {block:Description}
+            <p class="brand__desc">
+                {Description}
+            </p>
+            {/block:Description}
+            </div>
+    
+            
+            {block:IfNotShowFooterBackground}
+            <div class="rail main-header__social">
+                {block:IfFacebookUrl}
+                <a class="btn is-black is-xs is-icon is-outline" href="{text:Facebook Url}">
+                    <i class="btn__icon">
+                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <path d="M288,192v-38.1c0-17.2,3.8-25.9,30.5-25.9H352V64h-55.9c-68.5,0-91.1,31.4-91.1,85.3V192h-45v64h45v192h83V256h56.4l7.6-64
+                            H288z"/>
+                        </svg>
+                    </i>
+                </a>
+                {/block:IfFacebookURL}
+                {block:IfTwitterUrl}
+                <a class="btn is-black is-xs is-icon is-outline" href="{text:Twitter URL}">
+                    <i class="btn__icon">
+                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <path d="M492,109.5c-17.4,7.7-36,12.9-55.6,15.3c20-12,35.4-31,42.6-53.6c-18.7,11.1-39.4,19.2-61.5,23.5
+                            C399.8,75.8,374.6,64,346.8,64c-53.5,0-96.8,43.4-96.8,96.9c0,7.6,0.8,15,2.5,22.1c-80.5-4-151.9-42.6-199.6-101.3
+                            c-8.3,14.3-13.1,31-13.1,48.7c0,33.6,17.2,63.3,43.2,80.7C67,210.7,52,206.3,39,199c0,0.4,0,0.8,0,1.2c0,47,33.4,86.1,77.7,95
+                            c-8.1,2.2-16.7,3.4-25.5,3.4c-6.2,0-12.3-0.6-18.2-1.8c12.3,38.5,48.1,66.5,90.5,67.3c-33.1,26-74.9,41.5-120.3,41.5
+                            c-7.8,0-15.5-0.5-23.1-1.4C62.8,432,113.7,448,168.3,448C346.6,448,444,300.3,444,172.2c0-4.2-0.1-8.4-0.3-12.5
+                            C462.6,146,479,129,492,109.5z"/>
+                        </svg>
+                    </i>
+                </a>
+                {/block:IfTwitterUrl}
+                {block:IfGooglePlusURL}
+                <a class="btn is-black is-xs is-icon is-outline" href="{text:Google Plus URL}">
+                    <i class="btn__icon">
+                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                        <g>
+                            <path d="M325.862,275.558l-18.187-13.653l-0.063-0.051c-5.827-4.579-9.952-8.313-9.952-14.685c0-6.979,5.049-11.824,10.896-17.436
+                                l0.466-0.449c20.025-15.171,44.726-34.286,44.726-74.556c0-26.934-11.916-44.729-23.28-57.729h12.969l60.322-33H270.308
+                                c-25.324,0-62.68,3.225-94.561,28.576l-0.128,0.25c-21.809,18.111-34.828,44.584-34.828,70.691
+                                c0,21.197,8.706,42.159,23.885,57.447c21.428,21.579,48.302,26.127,67.074,26.127c1.462,0,2.956-0.028,4.47-0.093
+                                c-0.759,2.969-1.25,6.321-1.25,10.321c0,10.926,3.628,19.301,8.083,26.195c-23.963,1.932-58.148,6.477-84.897,22.278
+                                c-39.335,22.562-42.396,55.875-42.396,65.551c0,38.207,35.707,76.762,115.479,76.762c91.611,0,139.543-49.792,139.543-98.979
+                                C370.781,311.966,347.945,293.457,325.862,275.558z M200.485,139.894c0-13.359,3.02-23.457,9.255-30.9
+                                c6.514-7.852,18.18-13.129,29.028-13.129c19.881,0,32.938,15.008,40.388,27.598c9.199,15.539,14.913,36.095,14.913,53.643
+                                c0,4.942,0,19.983-10.188,29.796c-6.951,6.686-18.707,11.353-28.59,11.353c-20.503,0-33.453-14.705-40.707-27.041
+                                C204.189,173.53,200.485,153.109,200.485,139.894z M321.6,367.974c0,27.444-25.212,44.493-65.799,44.493
+                                c-48.058,0-80.347-20.603-80.347-51.265c0-26.14,21.54-36.789,37.8-42.521c18.944-6.064,44.297-7.305,50.062-7.305
+                                c3.907,0,6.087,0,8.683,0.229C308.7,336.816,321.6,347.733,321.6,367.974z"/>
+                        </g>
+                        </svg>
+                    </i>
+                </a>
+                {/block:IfGooglePlusURL}
+                {block:IfInstagramURL}
+                <a class="btn is-black is-xs is-icon is-outline" href="{text:Instagram URL}">
+                    <i class="btn__icon">
+                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <circle cx="256" cy="255.833" r="80"/>
+                            </g>
+                            <g>
+                                <path d="M177.805,176.887c21.154-21.154,49.279-32.929,79.195-32.929s58.041,11.837,79.195,32.991
+                                    c13.422,13.422,23.011,29.551,28.232,47.551H448.5v-113c0-26.51-20.49-47-47-47h-288c-26.51,0-49,20.49-49,47v113h85.072
+                                    C154.794,206.5,164.383,190.309,177.805,176.887z M416.5,147.7c0,7.069-5.73,12.8-12.8,12.8h-38.4c-7.069,0-12.8-5.73-12.8-12.8
+                                    v-38.4c0-7.069,5.73-12.8,12.8-12.8h38.4c7.069,0,12.8,5.73,12.8,12.8V147.7z"/>
+                                <path d="M336.195,335.279c-21.154,21.154-49.279,32.679-79.195,32.679s-58.041-11.462-79.195-32.616
+                                    c-21.115-21.115-32.759-49.842-32.803-78.842H64.5v143c0,26.51,22.49,49,49,49h288c26.51,0,47-22.49,47-49v-143h-79.502
+                                    C368.955,285.5,357.311,314.164,336.195,335.279z"/>
+                            </g>
+                        </svg>
+                    </i>
+                </a>
+                {/block:IfInstagramURL}
+                {block:IfPinterestURL}
+                <a class="btn is-black is-xs is-icon is-outline" href="{text:Pinterest URL}">
+                        <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                <g>
+                                    <path d="M256,32C132.3,32,32,132.3,32,256c0,91.7,55.2,170.5,134.1,205.2c-0.6-15.6-0.1-34.4,3.9-51.4
+                                        c4.3-18.2,28.8-122.1,28.8-122.1s-7.2-14.3-7.2-35.4c0-33.2,19.2-58,43.2-58c20.4,0,30.2,15.3,30.2,33.6
+                                        c0,20.5-13.1,51.1-19.8,79.5c-5.6,23.8,11.9,43.1,35.4,43.1c42.4,0,71-54.5,71-119.1c0-49.1-33.1-85.8-93.2-85.8
+                                        c-67.9,0-110.3,50.7-110.3,107.3c0,19.5,5.8,33.3,14.8,43.9c4.1,4.9,4.7,6.9,3.2,12.5c-1.1,4.1-3.5,14-4.6,18
+                                        c-1.5,5.7-6.1,7.7-11.2,5.6c-31.3-12.8-45.9-47-45.9-85.6c0-63.6,53.7-139.9,160.1-139.9c85.5,0,141.8,61.9,141.8,128.3
+                                        c0,87.9-48.9,153.5-120.9,153.5c-24.2,0-46.9-13.1-54.7-27.9c0,0-13,51.6-15.8,61.6c-4.7,17.3-14,34.5-22.5,48
+                                        c20.1,5.9,41.4,9.2,63.5,9.2c123.7,0,224-100.3,224-224C480,132.3,379.7,32,256,32z"/>
+                                </g>
+                           </svg>
+                    </i>
+                </a>
+                {/block:IfPinterestURL}
+            </div>
+            {/block:IfNotShowFooterBackground}
+    
+            {block:IfShowFooterBackground}
+            <div class="rail main-header__social">
+                {block:IfFacebookUrl}
+                <a class="btn is-white is-xs is-icon is-outline" href="{text:Facebook Url}">
+                    <i class="btn__icon">
+                            <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <path d="M288,192v-38.1c0-17.2,3.8-25.9,30.5-25.9H352V64h-55.9c-68.5,0-91.1,31.4-91.1,85.3V192h-45v64h45v192h83V256h56.4l7.6-64
+                                H288z"/>
+                            </svg>
+                        </i>
+                </a>
+                {/block:IfFacebookURL}
+                {block:IfTwitterUrl}
+                <a class="btn is-white is-xs is-icon is-outline" href="{text:Twitter URL}">
+                    <i class="btn__icon">
+                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <path d="M492,109.5c-17.4,7.7-36,12.9-55.6,15.3c20-12,35.4-31,42.6-53.6c-18.7,11.1-39.4,19.2-61.5,23.5
+                            C399.8,75.8,374.6,64,346.8,64c-53.5,0-96.8,43.4-96.8,96.9c0,7.6,0.8,15,2.5,22.1c-80.5-4-151.9-42.6-199.6-101.3
+                            c-8.3,14.3-13.1,31-13.1,48.7c0,33.6,17.2,63.3,43.2,80.7C67,210.7,52,206.3,39,199c0,0.4,0,0.8,0,1.2c0,47,33.4,86.1,77.7,95
+                            c-8.1,2.2-16.7,3.4-25.5,3.4c-6.2,0-12.3-0.6-18.2-1.8c12.3,38.5,48.1,66.5,90.5,67.3c-33.1,26-74.9,41.5-120.3,41.5
+                            c-7.8,0-15.5-0.5-23.1-1.4C62.8,432,113.7,448,168.3,448C346.6,448,444,300.3,444,172.2c0-4.2-0.1-8.4-0.3-12.5
+                            C462.6,146,479,129,492,109.5z"/>
+                        </svg>
+                    </i>
+                </a>
+                {/block:IfTwitterUrl}
+                {block:IfGooglePlusURL}
+                <a class="btn is-white is-xs is-icon is-outline" href="{text:Google Plus URL}">
+                        <i class="btn__icon">
+                                <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                               <g>
+                                   <path d="M325.862,275.558l-18.187-13.653l-0.063-0.051c-5.827-4.579-9.952-8.313-9.952-14.685c0-6.979,5.049-11.824,10.896-17.436
+                                       l0.466-0.449c20.025-15.171,44.726-34.286,44.726-74.556c0-26.934-11.916-44.729-23.28-57.729h12.969l60.322-33H270.308
+                                       c-25.324,0-62.68,3.225-94.561,28.576l-0.128,0.25c-21.809,18.111-34.828,44.584-34.828,70.691
+                                       c0,21.197,8.706,42.159,23.885,57.447c21.428,21.579,48.302,26.127,67.074,26.127c1.462,0,2.956-0.028,4.47-0.093
+                                       c-0.759,2.969-1.25,6.321-1.25,10.321c0,10.926,3.628,19.301,8.083,26.195c-23.963,1.932-58.148,6.477-84.897,22.278
+                                       c-39.335,22.562-42.396,55.875-42.396,65.551c0,38.207,35.707,76.762,115.479,76.762c91.611,0,139.543-49.792,139.543-98.979
+                                       C370.781,311.966,347.945,293.457,325.862,275.558z M200.485,139.894c0-13.359,3.02-23.457,9.255-30.9
+                                       c6.514-7.852,18.18-13.129,29.028-13.129c19.881,0,32.938,15.008,40.388,27.598c9.199,15.539,14.913,36.095,14.913,53.643
+                                       c0,4.942,0,19.983-10.188,29.796c-6.951,6.686-18.707,11.353-28.59,11.353c-20.503,0-33.453-14.705-40.707-27.041
+                                       C204.189,173.53,200.485,153.109,200.485,139.894z M321.6,367.974c0,27.444-25.212,44.493-65.799,44.493
+                                       c-48.058,0-80.347-20.603-80.347-51.265c0-26.14,21.54-36.789,37.8-42.521c18.944-6.064,44.297-7.305,50.062-7.305
+                                       c3.907,0,6.087,0,8.683,0.229C308.7,336.816,321.6,347.733,321.6,367.974z"/>
+                               </g>
+                               </svg>
+                            </i>
+                </a>
+                {/block:IfGooglePlusURL}
+                {block:IfInstagramURL}
+                <a class="btn is-white is-xs is-icon is-outline" href="{text:Instagram URL}">
+                    <i class="btn__icon">
+                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <circle cx="256" cy="255.833" r="80"/>
+                            </g>
+                            <g>
+                                <path d="M177.805,176.887c21.154-21.154,49.279-32.929,79.195-32.929s58.041,11.837,79.195,32.991
+                                    c13.422,13.422,23.011,29.551,28.232,47.551H448.5v-113c0-26.51-20.49-47-47-47h-288c-26.51,0-49,20.49-49,47v113h85.072
+                                    C154.794,206.5,164.383,190.309,177.805,176.887z M416.5,147.7c0,7.069-5.73,12.8-12.8,12.8h-38.4c-7.069,0-12.8-5.73-12.8-12.8
+                                    v-38.4c0-7.069,5.73-12.8,12.8-12.8h38.4c7.069,0,12.8,5.73,12.8,12.8V147.7z"/>
+                                <path d="M336.195,335.279c-21.154,21.154-49.279,32.679-79.195,32.679s-58.041-11.462-79.195-32.616
+                                    c-21.115-21.115-32.759-49.842-32.803-78.842H64.5v143c0,26.51,22.49,49,49,49h288c26.51,0,47-22.49,47-49v-143h-79.502
+                                    C368.955,285.5,357.311,314.164,336.195,335.279z"/>
+                            </g>
+                        </svg>
+                    </i>
+                </a>
+                {/block:IfInstagramURL}
+                {block:IfPinterestURL}
+                <a class="btn is-white is-xs is-icon is-outline" href="{text:Pinterest URL}">
+                    <i class="btn__icon">
+                            <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="80px" height="80px" shape-rendering="geometricPrecision" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <g>
+                                <path d="M256,32C132.3,32,32,132.3,32,256c0,91.7,55.2,170.5,134.1,205.2c-0.6-15.6-0.1-34.4,3.9-51.4
+                                    c4.3-18.2,28.8-122.1,28.8-122.1s-7.2-14.3-7.2-35.4c0-33.2,19.2-58,43.2-58c20.4,0,30.2,15.3,30.2,33.6
+                                    c0,20.5-13.1,51.1-19.8,79.5c-5.6,23.8,11.9,43.1,35.4,43.1c42.4,0,71-54.5,71-119.1c0-49.1-33.1-85.8-93.2-85.8
+                                    c-67.9,0-110.3,50.7-110.3,107.3c0,19.5,5.8,33.3,14.8,43.9c4.1,4.9,4.7,6.9,3.2,12.5c-1.1,4.1-3.5,14-4.6,18
+                                    c-1.5,5.7-6.1,7.7-11.2,5.6c-31.3-12.8-45.9-47-45.9-85.6c0-63.6,53.7-139.9,160.1-139.9c85.5,0,141.8,61.9,141.8,128.3
+                                    c0,87.9-48.9,153.5-120.9,153.5c-24.2,0-46.9-13.1-54.7-27.9c0,0-13,51.6-15.8,61.6c-4.7,17.3-14,34.5-22.5,48
+                                    c20.1,5.9,41.4,9.2,63.5,9.2c123.7,0,224-100.3,224-224C480,132.3,379.7,32,256,32z"/>
+                            </g>
+                       </svg>
+                        </i>
+                </a>
+                {/block:IfPinterestURL}
+            </div>
+            {/block:IfShowFooterBackground}
+    
+        <div class="main-footer__copyrights">
+            <span>A tribute to Greek/Canadian restaurateurs Pantelis Kalampoyias & Nikolaos Safos 1961 </span><a href="https://chaobear.com/">© {CopyrightYears} Supermarkt Kassotis - A Chao Bear Enterprise in partnership with Walmart Inc. All Rights Reserved.</a>
+        </div>
+        {block:IfShowFooterBackground}
+        <img src="{image:Footer Background}" class="main-footer__bg">
+        {/block:IfShowFooterBackground}
+    </footer>
+    
+    
+    
+    
+    <div class="search-box" data-search-container>
+        <form action="/search" method="get" class="search-box__wrapper">
+            <input data-search-input class="search-box__input" placeholder="{lang:Search}..." type="text" name="q" value="{SearchQuery}">
+            <button class="search-box__btn btn is-link is-xlg is-icon is-white" value="search">
+                <i class="btn__icon">
+                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                    <path d="M344.5,298c15-23.6,23.8-51.6,23.8-81.7c0-84.1-68.1-152.3-152.1-152.3C132.1,64,64,132.2,64,216.3
+                        c0,84.1,68.1,152.3,152.1,152.3c30.5,0,58.9-9,82.7-24.4l6.9-4.8L414.3,448l33.7-34.3L339.5,305.1L344.5,298z M301.4,131.2
+                        c22.7,22.7,35.2,52.9,35.2,85c0,32.1-12.5,62.3-35.2,85c-22.7,22.7-52.9,35.2-85,35.2c-32.1,0-62.3-12.5-85-35.2
+                        c-22.7-22.7-35.2-52.9-35.2-85c0-32.1,12.5-62.3,35.2-85c22.7-22.7,52.9-35.2,85-35.2C248.5,96,278.7,108.5,301.4,131.2z"/>
+                    </svg>
+                </i>
+            </button>
+        </form>
+     </div>
+
+    <div class="overlayer is-white" data-overlayer="">
+    </div>
+
+
+    {block:IfGoogleAnaliticsTrackingId}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{text:Google Analitics Tracking Id}', 'auto');
+      ga('send', 'pageview');
+
+    </script>  
+    {/block:IfGoogleAnaliticsTrackingId}
+	<script src="https://static.tumblr.com/jxjb7si/0Nbozodsv/jquery.min.js">
+	</script>
+	<script src="https://static.tumblr.com/jxjb7si/BxKozodsw/vendor.min.js">
+	</script>
+    <script src="https://static.tumblr.com/jxjb7si/5zWozodsv/scripts.min.js">
+    </script>
+    <script src="https://my.hellobar.com/228800d11c7b927ad390b4ccb4498f07bf3e196f.js" type="text/javascript" charset="utf-8" async="async"></script>
+</body>
+</html>
