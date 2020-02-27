@@ -1,3 +1,5 @@
+![](https://i.imgur.com/fqkK07B.png)
+
 # Davidson Kass
 Davidson Kass is a platform that features traditional Greek recipes while selling the required ingredients right below them.
 
